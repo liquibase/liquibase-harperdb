@@ -1,0 +1,3 @@
+class ExtensionHarnessTest extends BaseHarnessSuite {
+
+}
