@@ -1,3 +1,4 @@
 .idea
 liquibase-harperdb.iml
 target
+derby.log

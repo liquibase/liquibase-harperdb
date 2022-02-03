@@ -46,6 +46,6 @@ public class HarperDBDatabase extends AbstractJdbcDatabase {
 
     @Override
     public int getPriority() {
-        return 0;
+        return PRIORITY_DEFAULT;
     }
 }
