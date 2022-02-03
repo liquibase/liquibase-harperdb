@@ -6,7 +6,7 @@ import liquibase.exception.DatabaseException;
 
 public class HarperDBDatabase extends AbstractJdbcDatabase {
 
-    public static final String PRODUCT_NAME = "HarperDB";
+    public static final String PRODUCT_NAME = "CData JDBC Driver for HarperDB 2021";
 
     @Override
     protected String getDefaultDatabaseProductName() {
@@ -26,7 +26,7 @@ public class HarperDBDatabase extends AbstractJdbcDatabase {
 
     @Override
     public String getShortName() {
-        return PRODUCT_NAME;
+        return "harperdb";
     }
 
     @Override
