@@ -6,9 +6,9 @@
     <groupId>org.liquibase.ext</groupId>
     <artifactId>liquibase-harperdb</artifactId>
     <version>4.4.2-SNAPSHOT</version>
-    <name>Liquibase Extension: Cassandra Database Support</name>
-    <description>Adds support for Cassandra database</description>
-    <url>https://github.com/liquibase/liquibase-cassandra</url>
+    <name>Liquibase Extension: HarperDB Database Support</name>
+    <description>Adds support for HarperDB database</description>
+    <url>https://github.com/liquibase/liquibase-harperdb</url>
 
     <organization>
         <name>Liquibase.org</name>
