@@ -56,7 +56,13 @@
         <dependency>
             <groupId>org.liquibase</groupId>
             <artifactId>liquibase-core</artifactId>
-            <version>4.4.0</version>
+            <version>4.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-test-harness</artifactId>
+            <version>1.0.4</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>cdata.jdbc.harperdb</groupId>
@@ -64,12 +70,6 @@
             <scope>system</scope>
             <version>1.0</version>
             <systemPath>${project.basedir}/lib/cdata.jdbc.harperdb.jar</systemPath>
-        </dependency>
-        <dependency>
-            <groupId>org.liquibase</groupId>
-            <artifactId>liquibase-test-harness</artifactId>
-            <version>1.0.0</version> // pick up latest version available on maven-central
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

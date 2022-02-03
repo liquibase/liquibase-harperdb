@@ -4,6 +4,6 @@ context: testContext
 databasesUnderTest:
   - name: harperdb
     version: 3.1.3
-    url: jdbc:postgresql://localhost:5433/lbcat
+    url: jdbc:harperdb:Server=liquibase-liquibase.harperdbcloud.com
     username: liquibase
     password: s3cr3t

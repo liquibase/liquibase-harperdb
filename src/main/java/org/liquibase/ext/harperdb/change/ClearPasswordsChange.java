@@ -1,4 +1,4 @@
-package com.example.change;
+package org.liquibase.ext.harperdb.change;
 
 import liquibase.change.AbstractChange;
 import liquibase.change.ChangeMetaData;

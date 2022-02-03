@@ -1,4 +1,4 @@
-package com.example.precondition;
+package org.liquibase.ext.harperdb.precondition;
 
 import liquibase.changelog.ChangeSet;
 import liquibase.changelog.DatabaseChangeLog;
