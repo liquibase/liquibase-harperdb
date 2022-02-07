@@ -3,6 +3,8 @@ package org.liquibase.ext.harperdb.database;
 import liquibase.database.AbstractJdbcDatabase;
 import liquibase.database.DatabaseConnection;
 import liquibase.exception.DatabaseException;
+import liquibase.statement.SqlStatement;
+import liquibase.statement.core.RawCallStatement;
 
 public class HarperDBDatabase extends AbstractJdbcDatabase {
 
@@ -48,4 +50,14 @@ public class HarperDBDatabase extends AbstractJdbcDatabase {
     public int getPriority() {
         return PRIORITY_DEFAULT;
     }
+
+    @Override
+    protected String getConnectionSchemaName(){
+        //TODO: implement sane way to query for schema name
+        //  use connection.getMetaData().getSchemas() - returns ResultSet
+        return "lbcat";
+    }
+
+
+
 }

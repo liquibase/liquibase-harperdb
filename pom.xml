@@ -85,6 +85,11 @@
             <version>1.0</version>
             <systemPath>${project.basedir}/lib/cdata.jdbc.harperdb.jar</systemPath>
         </dependency>
+        <dependency>
+            <groupId>info.picocli</groupId>
+            <artifactId>picocli</artifactId>
+            <version>4.6.2</version>
+        </dependency>
     </dependencies>
 
     <build>
