@@ -1,2 +1,2 @@
-com.example.change.ClearPasswordsChange
-com.example.change.PrefixedCreateTableChange
+org.liquibase.ext.harperdb.change.ClearPasswordsChange
+org.liquibase.ext.harperdb.change.PrefixedCreateTableChange

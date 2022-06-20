@@ -1,1 +1,1 @@
-com.example.precondition.HasPasswordColumnPrecondition
+org.liquibase.ext.harperdb.precondition.HasPasswordColumnPrecondition
